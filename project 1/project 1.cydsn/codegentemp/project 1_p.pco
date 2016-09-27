@@ -1,0 +1,21 @@
+dont_use_io iocell 0 6
+dont_use_io iocell 0 7
+dont_use_io iocell 6 0
+dont_use_io iocell 6 1
+set_location "\PWM:PWMUDB:runmode_enable\" macrocell 1 0 0 0
+set_location "\PWM:PWMUDB:clock_enable_block__AND\" macrocell 0 0 1 0
+set_location "\PWM:PWMUDB:status_2\" macrocell 1 0 1 1
+set_location "Net_848" macrocell 0 0 0 0
+set_location "\PWM:PWMUDB:genblk8:stsreg\" statusicell 1 0 4 
+set_location "\PWM:PWMUDB:sP8:pwmdp:u0\" datapathcell 1 0 2 
+set_location "\PWM:PWMUDB:prevCompare1\" macrocell 1 0 0 2
+set_location "\FreqDiv_1:count_2\" macrocell 0 0 0 2
+set_location "Net_463" macrocell 1 0 0 1
+set_location "\FreqDiv_1:count_1\" macrocell 0 0 0 3
+set_location "\FreqDiv_1:count_0\" macrocell 0 0 1 1
+set_location "\FreqDiv_1:not_last_reset\" macrocell 0 0 1 2
+set_location "\PWM:PWMUDB:status_0\" macrocell 1 0 0 3
+set_location "\PWM:PWMUDB:genblk1:ctrlreg\" controlcell 0 0 6 
+set_io "Pin_LED(0)" iocell 3 7
+set_location "ClockGenBlock" m0s8clockgenblockcell -1 -1 0
+set_location "ClockBlock" m0s8clockblockcell -1 -1 0
